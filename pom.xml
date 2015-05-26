@@ -8,6 +8,32 @@
     <artifactId>hibernate-postgresql-patch</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
+    <name>Hibernate PostgreSQL Patch</name>
+    <description>Provides a custom extended PostgreSQL dialect for Hibernate 4.x.</description>
+    <url>https://github.com/CPGFinanceSystems/hibernate-postgresql-patch</url>
+
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+            <url>http://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Michael Forstner</name>
+            <email>michael.forstner@cpg.de</email>
+            <organization>CPG Finance Systems</organization>
+            <organizationUrl>http://www.cpg.de</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:CPGFinanceSystems/hibernate-postgresql-patch.git</connection>
+        <developerConnection>scm:git:git@github.com:CPGFinanceSystems/hibernate-postgresql-patch.git</developerConnection>
+        <url>git@github.com:CPGFinanceSystems/hibernate-postgresql-patch.git</url>
+    </scm>
+
     <properties>
         <java.version>1.6</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
