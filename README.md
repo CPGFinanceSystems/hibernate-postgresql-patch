@@ -9,13 +9,13 @@ be used in your project). For further information also see [HH-9562](https://hib
 
 ## Usage
 
-Use `de.cpg.shared.hibernate.CustomPostgreSQL9Dialect` instead of standard `org.hibernate.dialect.PostgreSQL9Dialect`
+Use `de.cpg.oss.hibernate.CustomPostgreSQL9Dialect` instead of standard `org.hibernate.dialect.PostgreSQL9Dialect`
 in your application's hibernate configuration an you're done.
 
 ## Download
 
-Binaries are available on maven central with following GAV:
+Binaries will be available on maven central with following GAV:
 
-- groupId: `de.cpg.shared`
+- groupId: `de.cpg.oss`
 - artifactId: `hibernate-postgresql-patch`
 - version: `1.0.0`

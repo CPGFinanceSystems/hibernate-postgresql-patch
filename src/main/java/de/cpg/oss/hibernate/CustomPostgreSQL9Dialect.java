@@ -1,4 +1,4 @@
-package de.cpg.shared.hibernate;
+package de.cpg.oss.hibernate;
 
 import org.hibernate.dialect.PostgreSQL9Dialect;
 import org.hibernate.metamodel.spi.TypeContributions;
