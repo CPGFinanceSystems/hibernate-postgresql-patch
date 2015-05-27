@@ -44,10 +44,12 @@
     </properties>
 
     <dependencies>
+        <!-- Use hibernate in provided scope and leave dependency management to the using project -->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>${hibernate.version}</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
